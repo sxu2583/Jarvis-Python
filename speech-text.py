@@ -24,7 +24,7 @@ for i in range(0, z):
         # instead of `r.recognize_google(audio)`
         print("You said...: " + r.recognize_google(audio))
         
-        print("I don't know the answer though\n")
+        print("I don't know the answer\n")
     except sr.UnknownValueError:
         print("Google Speech Recognition could not understand audio")
     except sr.RequestError as e:
