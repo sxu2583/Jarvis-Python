@@ -8,12 +8,13 @@ algorithm similar to google api.
 Algorithm -> Google api -> Text
 """
 
-#import pyttsx
+import pyttsx
 import speech_recognition as sr
 
 # Record Audio
+print("Hi my name is Sintaco")
 z = int(input("How many questions do you have? "))
-#engine = pyttsx.init()
+engine = pyttsx.init()
 
 for i in range(0, z):
     r = sr.Recognizer()
@@ -25,8 +26,8 @@ for i in range(0, z):
         # to use another API key, use `r.recognize_google(audio, key="GOOGLE_SPEECH_RECOGNITION_API_KEY")`
         # instead of `r.recognize_google(audio)`
         print("You said...: " + r.recognize_google(audio))
-        #engine.say('You said'+r.recognize_google(audio))
-        #engine.runAndWait()
+        engine.say('You said'+r.recognize_google(audio))
+        engine.runAndWait()
 
     except sr.UnknownValueError:
         print("Google Speech Recognition could not understand audio")
