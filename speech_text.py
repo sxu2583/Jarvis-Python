@@ -8,6 +8,10 @@ algorithm similar to google api.
 Algorithm -> Google api -> Text
 """
 
+"""
+You need to have your sound turned on otherwise an erorr occurs via the
+exception error that wasn't converted from python 2.7 to 3.6
+"""
 import pyttsx
 import speech_recognition as sr
 
