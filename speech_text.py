@@ -12,8 +12,12 @@ Algorithm -> Google api -> Text
 You need to have your sound turned on otherwise an erorr occurs via the
 exception error that wasn't converted from python 2.7 to 3.6
 """
+
+#This is the speech to text
 import pyttsx
+#This is the text to speech
 import speech_recognition as sr
+
 
 # Record Audio
 print("Hi my name is Sintaco")
