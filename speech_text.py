@@ -17,12 +17,20 @@ exception error that wasn't converted from python 2.7 to 3.6
 import pyttsx
 #This is the text to speech
 import speech_recognition as sr
-
+engine = pyttsx.init()
 
 # Record Audio
 print("Hi my name is Sintaco")
+engine.say("Hi my name is Sintaco")
+name = input("What is your name?")
+engine.say("You said your name was "+ name)
+
+if name == "Shihab":
+    engine.say("That's a beautiful name")
+else:
+    engine.say(name+"...That's a stupid name")
+
 z = int(input("How many questions do you have? "))
-engine = pyttsx.init()
 
 for i in range(0, z):
     r = sr.Recognizer()
