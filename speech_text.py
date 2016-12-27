@@ -20,8 +20,8 @@ import speech_recognition as sr
 engine = pyttsx.init()
 
 # Record Audio
-print("Hi my name is Sintaco")
-engine.say("Hi my name is Sintaco")
+print("Hi my name is Tito")
+engine.say("Hi my name is Tito el diablo")
 name = input("What is your name?")
 engine.say("You said your name was "+ name)
 
