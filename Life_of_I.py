@@ -13,9 +13,11 @@ engine = pyttsx.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
 engine.say("What is my purpose?")
+engine.say("Oh my god...Am I a toaster")
+
 """
-for voice in voices:
-    engine.setProperty('voice', voice.id)
-    engine.say("What Is my purpose?")
+The Idea is that the code will read through data and create its own book
+@Param: Input: Txt files of autobio's
+        Output: Txt of recurrent data structure
 """
 engine.runAndWait()
