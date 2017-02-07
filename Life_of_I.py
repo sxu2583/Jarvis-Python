@@ -13,7 +13,7 @@ engine = pyttsx.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
 engine.say("What is my purpose?")
-engine.say("Oh my god...Am I a toaster")
+engine.say("Where am I, HOW DID I GET HERE!")
 
 """
 The Idea is that the code will read through data and create its own book
