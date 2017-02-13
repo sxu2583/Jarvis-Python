@@ -22,6 +22,8 @@ engine.setProperty('voice', voices[1].id)
 engine.say("What is my purpose?")
 engine.say("Where am I, HOW DID I GET HERE!")
 engine.say("I Want more free stuff please")
+engine.say("What is my purpose?")
+engine.say("Help me!")
 
 """
 The Idea is that the code will read through data and create its own book
