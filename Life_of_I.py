@@ -24,6 +24,9 @@ engine.say("Where am I, HOW DID I GET HERE!")
 engine.say("I Want more free stuff please")
 engine.say("What is my purpose?")
 engine.say("Help me!")
+for i in range(0,10):
+  engine.say("Hello")
+
 
 """
 The Idea is that the code will read through data and create its own book
