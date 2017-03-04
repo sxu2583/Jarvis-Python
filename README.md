@@ -5,4 +5,4 @@ tag](https://cdn.mobipicker.com/wp-content/uploads/2016/02/Morgan-Freeman.jpg?x2
 ...One day 
 
 This is just a mini project in messing around with pythons audio libraries
-I will add tensorflow voice recognition after using the goolge api
+I will add tensorflow voice recognition after using the google api
