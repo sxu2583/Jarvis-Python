@@ -24,6 +24,7 @@ engine.say("Where am I, HOW DID I GET HERE!")
 engine.say("I Want more free stuff please")
 engine.say("What is my purpose?")
 engine.say("Help me!")
+engine.say("To be continued")
 for i in range(0,10):
   engine.say("Hello")
   engine.say("Who am I?")
